@@ -12677,6 +12677,7 @@ Main Section # feaSocialMedia
   transition: background 0.6s ease;
   text-align: start;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 222px;
 }
 #feaSocialMedia .SocialMedia .social-media-buttons .tiktok-button a:hover {
   background: linear-gradient(150deg, #010101, #030303, #060606, #69c9d0, #5cd4dd, #ee1d52, #fa0a46);
