@@ -12313,48 +12313,18 @@ Main Section # feaPrograms
   align-items: center;
   text-align: center;
 }
-#feaPrograms .Programs-options .Programs-options-boxs h3, #feaPrograms .Programs-options .Programs-options-boxs .h3 {
-  color: #5b5c74;
-  font-weight: 500;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
 #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-lgsBox {
-  background-color: #e9ff70;
-  margin-top: 16px;
-  text-align: center;
-}
-#feaPrograms .Programs-options .Programs-options-boxs .Programs-options-lgsBox h4, #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-lgsBox .h4 {
-  color: #747e3e;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
+  border: 2px solid #ffd670;
 }
 #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox {
-  background-color: #70d6ff;
-}
-#feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox h4, #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox .h4 {
-  color: #427183;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
+  border: 2px solid #70d6ff;
 }
 #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox-mezun {
-  background-color: #70ff70;
-}
-#feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox-mezun h4, #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-yksBox-mezun .h4 {
-  color: #428348;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
+  border: 2px solid #baffc9;
 }
 #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-photoBox {
-  background-color: #ffc87d;
-}
-#feaPrograms .Programs-options .Programs-options-boxs .Programs-options-photoBox h4, #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-photoBox .h4 {
-  color: #755b38;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
+  border: 2px solid #363636;
+  border-radius: 50%;
 }
 
 /*--------------------------------------------------------------
