@@ -12448,6 +12448,9 @@ Main Section # feaPrivateLesson
   background-size: cover;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   transition: all 0.6s;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   /* WebKit (Safari, Chrome) */
   /* Firefox */
   /* Opera */
