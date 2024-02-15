@@ -12347,7 +12347,7 @@ Main Section # feaSuccessStories
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box {
   display: flex;
   background-color: antiquewhite;
-  border: 2px solid antiquewhite;
+  border: 2px solid #FA7D09;
   border-radius: 12px;
   opacity: 0.8;
   color: #814242;
@@ -12357,80 +12357,81 @@ Main Section # feaSuccessStories
   max-height: 100%;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body {
-  background-color: maroon;
+  background-color: ivory;
   padding: 8px;
   text-align: center;
   overflow: hidden;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-title {
-  color: #FA7D09;
+  color: #ff611a;
   font-weight: bold;
   text-align: center;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text {
   color: #D2D2D2;
   flex: 1;
+  color: #363636;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text small, #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text .small {
   color: #726da8;
   font-weight: bold;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   #feaSuccessStories .SuccessStories-content {
     background: url("img/Anasayfa/fea-trainingMethodology-bg-1.png") center center fixed;
     background-size: cover;
     height: 333px;
   }
 }
-@media (max-width: 1599px) and (min-width: 768px) {
+@media (max-width: 1399px) and (min-width: 992px) {
   #feaSuccessStories .SuccessStories-content {
     background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.png") center center fixed;
     background-size: cover;
-    height: 760px;
+    height: 480px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) and (min-width: 576px) {
+  #feaSuccessStories .SuccessStories-content {
+    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.png") center center fixed;
+    background-size: cover;
+    height: 360px;
+  }
+}
+@media (max-width: 575px) {
   #feaSuccessStories .SuccessStories-content {
     background: url("img/Anasayfa/fea-trainingMethodology-bg-1-phone.png") center center fixed;
     background-size: cover;
-    height: 720px;
-  }
-}
-@media (min-width: 1600px) {
-  #feaSuccessStories .SuccessStories-content-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-  }
-}
-@media (max-width: 1599px) and (min-width: 768px) {
-  #feaSuccessStories .SuccessStories-content-box {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 767px) {
-  #feaSuccessStories .SuccessStories-content-box {
-    display: flex;
-    flex-direction: column;
+    height: 360px;
   }
 }
 @media (min-width: 1600px) {
   #feaSuccessStories .card-body {
-    border-radius: 0 12px 12px 0;
-    height: 242px;
+    border-radius: 12px;
+    height: 240px;
   }
 }
-@media (max-width: 1599px) and (min-width: 768px) {
+@media (max-width: 1599px) and (min-width: 1400px) {
   #feaSuccessStories .card-body {
-    border-radius: 0 0 12px 12px;
-    height: 254px;
+    border-radius: 12px;
+    height: 280px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1399px) and (min-width: 992px) {
   #feaSuccessStories .card-body {
-    border-radius: 0 0 12px 12px;
-    height: 172px;
+    border-radius: 12px;
+    height: 360px;
+  }
+}
+@media (max-width: 991px) and (min-width: 576px) {
+  #feaSuccessStories .card-body {
+    border-radius: 12px;
+    height: 300px;
+  }
+}
+@media (max-width: 575px) {
+  #feaSuccessStories .card-body {
+    border-radius: 12px;
+    height: 240px;
   }
 }
 #feaSuccessStories .SuccessStories-img {
