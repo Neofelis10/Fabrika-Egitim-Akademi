@@ -12446,7 +12446,34 @@ Main Section # feaPrivateLesson
   background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
   background-size: cover;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  transition: all 0.5s;
+  transition: all 0.6s;
+  /* WebKit (Safari, Chrome) */
+  /* Firefox */
+  /* Opera */
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #feaPrivateLesson {
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background-size: cover;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    transition: all 0.6s;
+  }
+}
+@-moz-document url-prefix() {
+  #feaPrivateLesson {
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background-size: cover;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    transition: all 0.6s;
+  }
+}
+@media all and (-webkit-min-device-pixel-ratio: 10000), not all and (-webkit-min-device-pixel-ratio: 0) {
+  #feaPrivateLesson {
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background-size: cover;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    transition: all 0.6s;
+  }
 }
 #feaPrivateLesson .PrivateLesson {
   display: flex;
@@ -12457,17 +12484,9 @@ Main Section # feaPrivateLesson
   padding: 18px 12px;
   text-align: center;
 }
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content h1, #feaPrivateLesson .PrivateLesson .PrivateLesson-content .h1,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content h2,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h2,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content h3,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h3,
+#feaPrivateLesson .PrivateLesson .PrivateLesson-content h2, #feaPrivateLesson .PrivateLesson .PrivateLesson-content .h2,
 #feaPrivateLesson .PrivateLesson .PrivateLesson-content h4,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h4,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content h5,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h5,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content h6,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h6 {
+#feaPrivateLesson .PrivateLesson .PrivateLesson-content .h4 {
   text-align: center;
   font-weight: 600;
   letter-spacing: 1px;
@@ -12490,17 +12509,9 @@ Main Section # feaPrivateLesson
   opacity: 0.8;
   margin-bottom: 24px;
 }
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h1, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h1,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h2,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h2,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h3,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h3,
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h2, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h2,
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h4,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h4,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h5,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h5,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h6,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h6 {
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h4 {
   color: #70d6ff;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box p {
