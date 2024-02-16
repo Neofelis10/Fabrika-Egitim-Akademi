@@ -12507,19 +12507,22 @@ Main Section # feaPrivateLesson
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box {
   background-color: #363636;
-  padding: 12px 18px;
+  text-align: center;
+  padding-top: 68px;
   border: 2px solid #e9ff70;
-  border-radius: 18px;
   opacity: 0.8;
   margin-bottom: 24px;
+  height: 252px;
+  width: 252px;
+  border-radius: 50%;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h2, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h2,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h4,
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h4 {
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box h6,
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box .h6 {
   color: #70d6ff;
 }
-#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box p {
-  color: #ff9770;
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box img {
+  height: 100px;
 }
 
 /*--------------------------------------------------------------
