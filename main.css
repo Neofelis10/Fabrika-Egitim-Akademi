@@ -12346,35 +12346,31 @@ Main Section # feaSuccessStories
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box {
   display: flex;
-  background-color: antiquewhite;
-  border: 2px solid #FA7D09;
-  border-radius: 12px;
+  border: 3px solid orangered;
+  border-radius: 16px;
   opacity: 0.8;
   color: #814242;
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box img {
-  border-radius: 12px;
-  max-height: 100%;
-}
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body {
-  background-color: ivory;
+  background-color: ghostwhite;
   padding: 8px;
   text-align: center;
   overflow: hidden;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-title {
-  color: #ff611a;
+  color: salmon;
   font-weight: bold;
   text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text {
-  color: #D2D2D2;
-  flex: 1;
   color: #363636;
+  flex: 1;
 }
 #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text small, #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text .small {
   color: #726da8;
   font-weight: bold;
+  font-size: medium;
 }
 @media (min-width: 1400px) {
   #feaSuccessStories .SuccessStories-content {
@@ -12409,11 +12405,23 @@ Main Section # feaSuccessStories
     border-radius: 12px;
     height: 240px;
   }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 18px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 16px;
+  }
 }
 @media (max-width: 1599px) and (min-width: 1400px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
     height: 280px;
+  }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 4px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 17px;
   }
 }
 @media (max-width: 1399px) and (min-width: 992px) {
@@ -12421,17 +12429,35 @@ Main Section # feaSuccessStories
     border-radius: 12px;
     height: 360px;
   }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 6px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 16px;
+  }
 }
 @media (max-width: 991px) and (min-width: 576px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
     height: 300px;
   }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 16px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 15px;
+  }
 }
 @media (max-width: 575px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
     height: 240px;
+  }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 21px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 17px;
   }
 }
 #feaSuccessStories .SuccessStories-img {
