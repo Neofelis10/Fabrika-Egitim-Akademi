@@ -12313,6 +12313,10 @@ Main Section # feaPrograms
   align-items: center;
   text-align: center;
 }
+#feaPrograms .Programs-options .Programs-options-boxs h3, #feaPrograms .Programs-options .Programs-options-boxs .h3 {
+  color: #363636;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 #feaPrograms .Programs-options .Programs-options-boxs .Programs-options-lgsBox {
   border: 2px solid #ffd670;
 }
