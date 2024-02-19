@@ -12818,7 +12818,7 @@ Main Section # feaFoter
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   #feaFooter .fea-Footer-All h5, #feaFooter .fea-Footer-All .h5 {
-    border-left: 3px solid #D2D2D2;
+    border-left: transparent;
     padding-left: 10px;
     padding-bottom: 6px;
     margin-bottom: 20px;
