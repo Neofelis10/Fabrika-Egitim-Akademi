@@ -12455,7 +12455,7 @@ Main Section # feaSuccessStories
 @media (max-width: 575px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
-    height: 240px;
+    height: 280px;
   }
   #feaSuccessStories .card-body .card-title {
     margin-bottom: 21px;
