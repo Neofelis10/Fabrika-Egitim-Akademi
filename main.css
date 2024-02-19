@@ -12419,7 +12419,7 @@ Main Section # feaSuccessStories
 @media (max-width: 1599px) and (min-width: 1400px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
-    height: 280px;
+    height: 260px;
   }
   #feaSuccessStories .card-body .card-title {
     margin-bottom: 4px;
