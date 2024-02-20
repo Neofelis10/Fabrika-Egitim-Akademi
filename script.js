@@ -20,6 +20,9 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+function redirectToPage() {
+    window.open('hakkimizda.html', '_blank')
+}
 
 
 
