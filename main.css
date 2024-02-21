@@ -12928,7 +12928,7 @@ New Page # hakkimizda.html
 #hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text .content-text-boxs .content-text-box-underside .vertical-line {
   content: "";
   display: inline-block;
-  height: 80vh;
+  height: 100vh;
   width: 2px;
   background-color: #ff611a;
   opacity: 25%;
