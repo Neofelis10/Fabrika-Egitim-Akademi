@@ -12728,7 +12728,6 @@ Main Section # feaFoter
 --------------------------------------------------------------*/
 #feaFooter {
   font-family: "Courier New", Courier, monospace;
-  padding: 60px 0 0 0;
 }
 #feaFooter .fea-Footer {
   display: flex;
