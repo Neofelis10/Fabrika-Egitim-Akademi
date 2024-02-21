@@ -12836,7 +12836,7 @@ Main Section # feaFoter
 New Page # hakkimizda.html
 --------------------------------------------------------------*/
 #hakkimizda .hakkimizda-all {
-  background-color: #504f4d;
+  background-color: #363636;
   margin-top: 98px;
 }
 #hakkimizda .hakkimizda-all .hakkimizda-content {
@@ -12845,6 +12845,7 @@ New Page # hakkimizda.html
   align-items: start;
 }
 #hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text {
+  background-color: #504f4d;
   font-family: "Kalam-Regular";
 }
 #hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text .content-text-boxs {
