@@ -12845,7 +12845,10 @@ New Page # hakkimizda.html
   align-items: start;
 }
 #hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text {
-  font-family: cursive;
+  font-family: "Kalam-Regular";
+}
+#hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text .content-text-boxs {
+  font-size: 17px;
 }
 #hakkimizda .hakkimizda-all .hakkimizda-content .hakkimizda-content-text .content-text-boxs .content-text-box-upside {
   display: flex;
