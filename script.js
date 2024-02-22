@@ -21,7 +21,7 @@ $('.owl-carousel').owlCarousel({
 });
 
 function redirectToPage() {
-    window.location.href = "hedef_sayfa.html";
+    window.location.href = "hakkimizda.html";
 }
 
 
