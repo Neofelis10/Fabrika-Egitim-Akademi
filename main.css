@@ -12019,6 +12019,10 @@ textarea.form-control-lg {
   font-family: "Comic-Sans-Bold-Italic";
   src: url(Fonts/comicz.ttf);
 }
+@font-face {
+  font-family: "RubikWetPaint-Regular";
+  src: url(Fonts/RubikWetPaint-Regular.ttf);
+}
 /*--------------------------------------------------------------
 # feaTopbar
 --------------------------------------------------------------*/
