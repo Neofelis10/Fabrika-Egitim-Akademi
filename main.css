@@ -13369,158 +13369,124 @@ New Page # iletisim.html
 --------------------------------------------------------------*/
 
 #iletisim {
-    margin-top: 98px;
-    background-color: white;
-
-    .iletisim-all {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .iletisim-header {
-            padding: 24px 18px 77px 18px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background: url(img/İletişim/Iletisim-2f-img.png) bottom center no-repeat;
-            background-size: cover;
-
-            .iletisim-header-content-boxs {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                .iletisim-header-content-box-1 {
-                    text-align: center;
-                }
-
-                .iletisim-header-content-box-2 {
-                    background-color: $Gri;
-                    padding: 24px 14px 6px 24px;
-                    opacity: 0.90;
-                    border: 2px solid #7f78b3;
-                    border-radius: 24px;
-
-                    h2 {
-                        text-align: center;
-                        color: $AcikTuruncu;
-                        letter-spacing: 1px;
-                        text-shadow: 1px 1px 1px rgba($color: #7f78b3, $alpha: 0.6);
-                    }
-
-                    h4 {
-                        text-align: start;
-                        color: $AcikTuruncu;
-                        letter-spacing: 1px;
-                        text-shadow: 1px 1px 1px rgba($color: #7f78b3, $alpha: 0.6);
-                    }
-
-                    p {
-                        text-align: start;
-                        color: $AcikGri;
-                        letter-spacing: 1px;
-                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                        text-shadow: 1px 1px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-
-                        b {
-                            color: $Beyaz;
-                            text-shadow: 1px 1px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-                        }
-                    }
-
-                    hr {
-                        color: #7f78b3;
-                        border-width: 2px;
-                        box-shadow: 2px 2px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-                    }
-                }
-            }
-        }
-
-        .iletisim-main {
-
-            .iletisim-main-content-boxs {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .iletisim-main-content-box {
-                    padding: 8px 12px 6px 6px;
-
-                    .container {
-
-                        .row {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-
-                            .header-col {
-                                margin: 18px 0px 18px 0px;
-
-                                h4 {
-                                    color: $Antrasit;
-                                    text-shadow: 1px 1px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-                                    text-align: center;
-                                }
-                            }
-
-                            .first-col {
-                                text-align: end;
-                                padding: 0px 6px 6px 0px;
-
-                                b {
-                                    color: #7f78b3;
-                                    text-shadow: 1px 1px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-                                    font-size: 19px;
-                                }
-                            }
-
-                            .second-col {
-                                padding: 2px 6px 6px 0px;
-                                text-align: start;
-
-                                i {
-                                    color: $Turuncu;
-                                    font-size: 17px;
-                                    font-weight: bold;
-                                    text-shadow: 1px 1px 1px rgba($color: #7f78b3, $alpha: 0.6);
-
-                                }
-                            }
-                        }
-
-                        hr {
-                            color: $Antrasit;
-                            border-width: 2px;
-                            box-shadow: 2px 2px 1px rgba($color: $AcikTuruncu, $alpha: 0.6);
-                        }
-
-                        .row {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-
-                            .header-col {
-                                margin: 18px 0px 18px 0px;
-                            }
-
-                            .iletisim-instagram-logo {
-                                text-align: center;
-
-                                img {
-                                    height: 60px;
-                                }
-                            }
-
-                            .iletisim-tiktok-logo {
-                                text-align: center;
-
-                                img {
-                                    height: 60px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+  margin-top: 98px;
+  background-color: white;
 }
+#iletisim .iletisim-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iletisim .iletisim-all .iletisim-header {
+  padding: 24px 18px 77px 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: url(img/İletişim/Iletisim-2f-img.png) bottom center no-repeat;
+  background-size: cover;
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-1 {
+  text-align: center;
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 {
+  background-color: #4E5052;
+  padding: 24px 14px 6px 24px;
+  opacity: 0.9;
+  border: 2px solid #7f78b3;
+  border-radius: 24px;
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 h2, #iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 .h2 {
+  text-align: center;
+  color: #FA7D09;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(127, 120, 179, 0.6);
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 h4, #iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 .h4 {
+  text-align: start;
+  color: #FA7D09;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(127, 120, 179, 0.6);
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 p {
+  text-align: start;
+  color: #D2D2D2;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 1px rgba(250, 125, 9, 0.6);
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 p b {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(250, 125, 9, 0.6);
+}
+#iletisim .iletisim-all .iletisim-header .iletisim-header-content-boxs .iletisim-header-content-box-2 hr {
+  color: #7f78b3;
+  border-width: 2px;
+  box-shadow: 2px 2px 1px rgba(250, 125, 9, 0.6);
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box {
+  padding: 8px 12px 6px 6px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .header-col {
+  margin: 18px 0px 18px 0px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .header-col h4, #iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .header-col .h4 {
+  color: #363636;
+  text-shadow: 1px 1px 1px rgba(250, 125, 9, 0.6);
+  text-align: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .first-col {
+  text-align: end;
+  padding: 0px 6px 6px 0px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .first-col b {
+  color: #7f78b3;
+  text-shadow: 1px 1px 1px rgba(250, 125, 9, 0.6);
+  font-size: 19px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .second-col {
+  padding: 2px 6px 6px 0px;
+  text-align: start;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .second-col i {
+  color: #ff611a;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(127, 120, 179, 0.6);
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container hr {
+  color: #363636;
+  border-width: 2px;
+  box-shadow: 2px 2px 1px rgba(250, 125, 9, 0.6);
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .header-col {
+  margin: 18px 0px 18px 0px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .iletisim-instagram-logo {
+  text-align: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .iletisim-instagram-logo img {
+  height: 60px;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .iletisim-tiktok-logo {
+  text-align: center;
+}
+#iletisim .iletisim-all .iletisim-main .iletisim-main-content-boxs .iletisim-main-content-box .container .row .iletisim-tiktok-logo img {
+  height: 60px;
