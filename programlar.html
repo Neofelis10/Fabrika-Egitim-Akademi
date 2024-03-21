@@ -50,12 +50,17 @@
         </div>
         <div class="contact-info col d-none d-lg-flex d-flex align-items-start justify-content-center">
             <i class="bi bi-geo-alt-fill"></i>
-            <address>
-                Ihlamurdere Cad. No:26/A Beşiktaş/İstanbul
-            </address>
+            <a href="https://maps.app.goo.gl/18W4hDEe78sJYA939" target="_blank">
+                <address>
+                    Ihlamurdere Cad. No:26/A Beşiktaş/İstanbul
+                </address>
+            </a>
         </div>
         <div class="contact-info col d-flex align-items-start justify-content-center">
-            <i class="bi bi-phone-fill phone-icon"></i> <abbr title="Telefon">(0535) 689 98 76 </abbr>
+            <i class="bi bi-phone-fill phone-icon"></i>
+            <abbr title="Telefon">
+                <a href="tel:+905356899876">(0535) 689 98 76</a>
+            </abbr>
         </div>
     </div>
     <!-- End Top Bar -->
@@ -95,7 +100,7 @@
     <!-- ====== main Iletisim ====== -->
     <main id="programlar" class="container-fluid g-0">
         <div class="programlar-all row g-0">
-            <div class="main-head-programlar col-10 col-lg-8">
+            <div class="main-head-programlar col-10 col-lg-9">
                 <h2>- PROGRAMLAR -</h2>
                 <p>
                     <b>Fabrika Eğitim Akademi</b>, öğrencilerin başarılarına rehberlik etmek ve potansiyellerini en üst
@@ -105,81 +110,94 @@
                     için birebir eğitim anlayışını benimsemektedir.
                 </p>
             </div>
-            <div class="card" style="max-width: 1040px;">
+            <div class="container main-card-programlar">
                 <div class="row g-0">
-                    <div class="box-1 col-md-6 col-lg-4">
-                        <img id="box-1-img" src="img/Programlar/Programlar-2-img.png" class="img-fluid" alt="...">
-                    </div>
-                    <div class="box-2 col-md-6 col-lg-8">
-                        <div class="card-body">
-                            <ul class="list-group" id="box-2-list">
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Yılda İşlenen Ders Saatleri ve Butik Sınıflar</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Tüm Eksiklerinize Göre Birebir Özel Ders</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Deneme Sınavları ve Konu Sınavları</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Türkiye Geneli Sınavlara Katılım</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Soru Çözümleri</span>
-                                </li>
-                                <li class="list-item">
-                                    <i class="bi bi-pencil-fill"></i>
-                                    <span>Kamp Programları</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="box-3 col-12">
-                    <div class="classroom-boxes">
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-7class-bg-b.png" class="btn img-fluid"
-                                onclick="changeSeventhClass('img/Anasayfa/fea-Programs-7class-bg-b.png')" alt="">
-                        </div>
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-8class-bg-b.png" class="btn img-fluid"
-                                onclick="changeEighthClass('img/Anasayfa/fea-Programs-8class-bg-b.png')" alt="">
-                        </div>
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-10class-bg-b.png" class="btn img-fluid"
-                                onclick="changeTenthClass('img/Anasayfa/fea-Programs-10class-bg-b.png')" alt="">
-                        </div>
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-11class-bg-b.png" class="btn img-fluid"
-                                onclick="changeEleventhClass('img/Anasayfa/fea-Programs-11class-bg-b.png')" alt="">
-                        </div>
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-12class-bg-b.png" class="btn img-fluid"
-                                onclick="changeTwelfthClass('img/Anasayfa/fea-Programs-12class-bg-b.png')" alt="">
-                        </div>
-                        <div class="classroom-box">
-                            <img src="img/Anasayfa/fea-Programs-GraduateClass-bg-b.png" class="btn img-fluid"
-                                onclick="changeGraduateClass('img/Anasayfa/fea-Programs-GraduateClass-bg-b.png')"
-                                alt="">
+                    <div class="col-11 col-sm-9 col-md-8 col-lg-7 col-xl-8">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="box-1 col-12 col-xl-5 col-xxl-4">
+                                    <img id="box-1-img" src="img/Programlar/Programlar-2-img.png" class="img-fluid"
+                                        alt="...">
+                                </div>
+                                <div class="box-2 col-12 col-xl-7 col-xxl-8">
+                                    <div class="card-body">
+                                        <ul class="list-group" id="box-2-list">
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Yılda İşlenen Ders Saatleri ve Butik Sınıflar</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Tüm Eksiklerinize Göre Birebir Özel Ders</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Deneme Sınavları ve Konu Sınavları</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Türkiye Geneli Sınavlara Katılım</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Soru Çözümleri</span>
+                                            </li>
+                                            <li class="list-item">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>Kamp Programları</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-3 col-12">
+                                <div class="classroom-boxes">
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-7class-bg-b.png" class="btn img-fluid"
+                                            onclick="changeSeventhClass('img/Anasayfa/fea-Programs-7class-bg-b.png')"
+                                            alt="7.Sınıf Programı">
+                                    </div>
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-8class-bg-b.png" class="btn img-fluid"
+                                            onclick="changeEighthClass('img/Anasayfa/fea-Programs-8class-bg-b.png')"
+                                            alt="8.Sınıf Programı">
+                                    </div>
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-10class-bg-b.png" class="btn img-fluid"
+                                            onclick="changeTenthClass('img/Anasayfa/fea-Programs-10class-bg-b.png')"
+                                            alt="10.Sınıf Programı">
+                                    </div>
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-11class-bg-b.png" class="btn img-fluid"
+                                            onclick="changeEleventhClass('img/Anasayfa/fea-Programs-11class-bg-b.png')"
+                                            alt="11.Sınıf Programı">
+                                    </div>
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-12class-bg-b.png" class="btn img-fluid"
+                                            onclick="changeTwelfthClass('img/Anasayfa/fea-Programs-12class-bg-b.png')"
+                                            alt="12.Sınıf Programı">
+                                    </div>
+                                    <div class="classroom-box">
+                                        <img src="img/Anasayfa/fea-Programs-GraduateClass-bg-b.png"
+                                            class="btn img-fluid"
+                                            onclick="changeGraduateClass('img/Anasayfa/fea-Programs-GraduateClass-bg-b.png')"
+                                            alt="Mexun Programı">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="main-footer-programlar col-10 col-lg-8">
+            <div class="main-footer-programlar col-10 col-lg-9">
                 <p>
                     " <b>Eğitimin Fabrikası</b> " mottosuyla çıktığımız bu yolda; öğrencilerin bireysel ihtiyaçlarına
                     uygun çözümler sunmayı
@@ -219,36 +237,456 @@
                                 </a>
                                 <ul class="list-unstyled feaFooter-links mt-3">
                                     <li>
-                                        <a href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>7.Sınıf
+                                        <a href="" data-bs-target="#seventhClassModal" data-bs-toggle="modal">
+                                            7.Sınıf
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>8.Sınıf
+                                        <a href="#" data-bs-target="#eighthClassModal" data-bs-toggle="modal">
+                                            8.Sınıf
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>10.Sınıf
+                                        <a href="#" data-bs-target="#tenthClassModal" data-bs-toggle="modal">
+                                            10.Sınıf
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>11.Sınıf
+                                        <a href="#" data-bs-target="#eleventhClassModal" data-bs-toggle="modal">
+                                            11.Sınıf
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>12.Sınıf
+                                        <a href="#" data-bs-target="#twelfthClassModal" data-bs-toggle="modal">
+                                            12.Sınıf
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="-" href="javascript:void();">
-                                            <i class="fa fa-angle-double-right"></i>Mezun
+                                        <a href="#" data-bs-target="#graduateClassModal" data-bs-toggle="modal">
+                                            Mezun
                                         </a>
                                     </li>
                                 </ul>
+                                <!-- Modal-seventhClass -->
+                                <div class="modal fade" id="seventhClassModal" tabindex="-1"
+                                    aria-labelledby="seventhClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="seventhClassLabel">
+                                                    <i class="bi bi-info-circle"></i><span>LGS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-7class-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 432 Saat Ders (5 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>15 Deneme Sınavı - 15 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-seventhClass -->
+                                <!-- Modal-eighthClass -->
+                                <div class="modal fade" id="eighthClassModal" tabindex="-1"
+                                    aria-labelledby="eighthClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="eighthClassModal">
+                                                    <i class="bi bi-info-circle"></i><span>LGS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-8class-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 576 Saat Ders (10 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>60 Deneme Sınavı - 50 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-eighthClass -->
+                                <!-- Modal-tenthClass -->
+                                <div class="modal fade" id="tenthClassModal" tabindex="-1"
+                                    aria-labelledby="tenthClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="tenthClassModal">
+                                                    <i class="bi bi-info-circle"></i><span>YKS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-10class-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 432 Saat Ders (5 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>15 Deneme Sınavı - 15 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-tenthClass -->
+                                <!-- Modal-eleventhClass -->
+                                <div class="modal fade" id="eleventhClassModal" tabindex="-1"
+                                    aria-labelledby="eleventhClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="eleventhClassLabel">
+                                                    <i class="bi bi-info-circle"></i><span>YKS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-11class-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 504 Saat Ders (10 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>15 Deneme Sınavı - 20 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-eleventhClass -->
+                                <!-- Modal-twelfthhClass -->
+                                <div class="modal fade" id="twelfthClassModal" tabindex="-1"
+                                    aria-labelledby="twelfthClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="twelfthClassLabel">
+                                                    <i class="bi bi-info-circle"></i><span>YKS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-12class-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 648 Saat Ders (10 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>90 Deneme Sınavı - 50 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-twelfthClass -->
+                                <!-- Modal-graduateClass -->
+                                <div class="modal fade" id="graduateClassModal" tabindex="-1"
+                                    aria-labelledby="graduateClassLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="graduateClassLabel">
+                                                    <i class="bi bi-info-circle"></i><span>YKS HAZIRLIK</span>
+                                                </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row g-0">
+                                                    <div class="modal-img-box col-12 col-xl-5 col-xxl-4">
+                                                        <img id="box-1-img"
+                                                            src="img/Anasayfa/fea-Programs-GraduateClass-bg-b.png"
+                                                            class="img-fluid" alt="...">
+                                                    </div>
+                                                    <div class="modal-content-box col-12 col-xl-7 col-xxl-8">
+                                                        <div class="card-body">
+                                                            <ul class="list-group" id="seventhClass-list">
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 720 Saat Ders (10 Kişi)</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Tüm Eksiklerinize Göre Birebir Özel
+                                                                        Ders</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>90 Deneme Sınavı - 50 Konu Tarama
+                                                                        Sınavı</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Türkiye Geneli Sınavlara Katılım</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Haftalık Ödevlenirme - Eksik Takibi</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>En İyi Koçluk ve Rehberlik Hizmeti</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Soru Çözüm Saatleri</span>
+                                                                </li>
+                                                                <li class="list-item">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                    <span>Yılda 4 Kez Kamp Programı</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-success"
+                                                    data-bs-dismiss="modal">Kapat</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end Modal-graduateClass -->
                             </div>
                             <div class="col-12 col-lg-2">
                                 <a href="ozel-ders.html">
@@ -293,7 +731,6 @@
     <!-- End Footer -->
 
     <script src="script.js"></script>
-        <script src="bootstrap.bundle.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
     <script src="jQuery/jquery-3.6.4.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
