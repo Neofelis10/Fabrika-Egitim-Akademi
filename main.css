@@ -12107,7 +12107,7 @@ Header # feaHeader
 #feaHeroCarousel {
   height: 540px;
   overflow: hidden;
-  background: url("img/Anasayfa/fea-heroCarousel-bg-4.png") center center no-repeat;
+  background: url("img/Anasayfa/fea-heroCarousel-bg-4.jpeg") center center no-repeat;
   background-size: cover;
   transition: 0.3s;
   margin-top: 98px;
@@ -12473,28 +12473,28 @@ Main Section # feaSuccessStories
 }
 @media (min-width: 1400px) {
   #feaSuccessStories .SuccessStories-content {
-    background: url("img/Anasayfa/fea-trainingMethodology-bg-1.png") center center fixed;
+    background: url("img/Anasayfa/fea-trainingMethodology-bg-1.jpeg") center center fixed;
     background-size: cover;
     height: 333px;
   }
 }
 @media (max-width: 1399px) and (min-width: 992px) {
   #feaSuccessStories .SuccessStories-content {
-    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.png") center center fixed;
+    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.jpeg") center center fixed;
     background-size: cover;
     height: 480px;
   }
 }
 @media (max-width: 991px) and (min-width: 576px) {
   #feaSuccessStories .SuccessStories-content {
-    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.png") center center fixed;
+    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-tablet.jpeg") center center fixed;
     background-size: cover;
     height: 360px;
   }
 }
 @media (max-width: 575px) {
   #feaSuccessStories .SuccessStories-content {
-    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-phone.png") center center fixed;
+    background: url("img/Anasayfa/fea-trainingMethodology-bg-1-phone.jpeg") center center fixed;
     background-size: cover;
     height: 360px;
   }
@@ -12560,7 +12560,7 @@ Main Section # feaSuccessStories
   }
 }
 #feaSuccessStories .SuccessStories-img {
-  background: url(img/Anasayfa/fea-trainingMethodology-bg-2.png) center center scroll;
+  background: url(img/Anasayfa/fea-trainingMethodology-bg-2.jpeg) center center scroll;
   background-size: cover;
   height: 500px;
 }
@@ -12569,7 +12569,7 @@ Main Section # feaSuccessStories
 Main Section # feaPrivateLesson
 --------------------------------------------------------------*/
 #feaPrivateLesson {
-  background-image: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png);
+  background-image: url(img/Anasayfa/fea-PrivateLesson-bg-1920.jpeg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -12579,7 +12579,7 @@ Main Section # feaPrivateLesson
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   #feaPrivateLesson {
-    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.jpeg) center center fixed;
     background-size: cover;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     transition: all 0.6s;
@@ -12587,7 +12587,7 @@ Main Section # feaPrivateLesson
 }
 @-moz-document url-prefix() {
   #feaPrivateLesson {
-    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.jpeg) center center fixed;
     background-size: cover;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     transition: all 0.6s;
@@ -12595,7 +12595,7 @@ Main Section # feaPrivateLesson
 }
 @media all and (-webkit-min-device-pixel-ratio: 10000), not all and (-webkit-min-device-pixel-ratio: 0) {
   #feaPrivateLesson {
-    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.png) center center fixed;
+    background: url(img/Anasayfa/fea-PrivateLesson-bg-1920.jpeg) center center fixed;
     background-size: cover;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     transition: all 0.6s;
@@ -12849,8 +12849,8 @@ Main Section # feaFoter
 }
 #feaFooter .fea-Footer .fea-Footer-img .fea-Footer-All .fea-Footer-Upside .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 #feaFooter .fea-Footer .fea-Footer-img .fea-Footer-All .fea-Footer-Upside .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body .list-group {
   list-style: none;
