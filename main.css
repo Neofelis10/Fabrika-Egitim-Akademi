@@ -13474,6 +13474,9 @@ New Page # blog.html
   justify-content: space-evenly;
   align-items: center;
 }
+#blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item {
+  margin: 18px 12px;
+}
 #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card {
   border: none;
   position: relative;
@@ -13493,14 +13496,13 @@ New Page # blog.html
   transform-origin: center;
   transition: transform 0.3s ease;
 }
-#blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:hover {
-  transform: scale(1.1);
-}
-#blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:hover:before {
+#blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:hover:before, #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:active:before, #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:focus:before {
   transform: scale(1);
 }
+#blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:hover, #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:active, #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card:focus {
+  transform: scale(1.1);
+}
 #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card .card-img-overlay {
-  padding-top: 36px;
   overflow: hidden;
 }
 #blog .row .blog-all .blog-main .blog-main-blogs .row .blog-item .card .card-img-overlay p {
@@ -13548,6 +13550,45 @@ New Page # blog.html
 #blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body p small, #blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body p .small {
   color: forestgreen;
 }
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body p span {
+  color: midnightblue;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(255, 97, 26, 0.6);
+  font-size: 18px;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ol li {
+  background-color: bisque;
+  color: #40200f;
+  text-shadow: 1px 1px 2px rgba(255, 97, 26, 0.6);
+  font-weight: bold;
+  border: none;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ol li span {
+  color: #ff611a;
+  text-shadow: 1px 1px 2px rgba(64, 32, 15, 0.6);
+  font-weight: bolder;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ul li {
+  background-color: bisque;
+  color: #40200f;
+  text-shadow: 1px 1px 2px rgba(255, 97, 26, 0.6);
+  font-weight: bold;
+  border: none;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ul li span {
+  color: #ff611a;
+  text-shadow: 1px 1px 2px rgba(64, 32, 15, 0.6);
+  font-weight: bolder;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ul li i {
+  font-family: "kalam-light";
+  text-shadow: 1px 1px 2px rgba(255, 97, 26, 0.6);
+  color: #363636;
+  letter-spacing: 1px;
+}
+#blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ul li i small, #blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body ul li i .small {
+  color: forestgreen;
+}
 #blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-body hr {
   color: green;
   border-width: 3px;
@@ -13557,6 +13598,7 @@ New Page # blog.html
   color: #ff611a;
   text-shadow: 1px 1px 2px rgba(64, 32, 15, 0.6);
   font-weight: bolder;
+  letter-spacing: 1px;
 }
 #blog .row .blog-all .blog-main .blog-main-blogs .row .modal.fade.show .modal-dialog .modal-content .modal-footer {
   display: inline-flex;
