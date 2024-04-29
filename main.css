@@ -12653,6 +12653,66 @@ Main Section # feaPrivateLesson
 /*--------------------------------------------------------------
 Main Section # feaBlog
 --------------------------------------------------------------*/
+#feaBlog {
+  background: url(img/Blog/Blog-bg-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#feaBlog .Blog {
+  display: flex;
+  align-items: center;
+}
+#feaBlog .Blog .Blog-Cards {
+  display: flez;
+  justify-content: center;
+  align-items: center;
+}
+#feaBlog .Blog .Blog-Cards a {
+  text-decoration: none;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card {
+  background-color: cornsilk;
+  border: 2px solid green;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.3);
+  transition: transform 0.7s ease-in-out, border 0.7s ease, box-shadow 0.7s ease-in-out;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card:hover, #feaBlog .Blog .Blog-Cards a .Blog-Card:active {
+  box-shadow: 0 8px 16px rgba(255, 97, 26, 0.3);
+  transform: scale(1.05);
+  border-color: #ff611a;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card img {
+  width: 90px;
+  border: 1px solid darkgreen;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 100, 0, 0.5);
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card h4, #feaBlog .Blog .Blog-Cards a .Blog-Card .h4 {
+  color: #d56f54;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 3px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card small, #feaBlog .Blog .Blog-Cards a .Blog-Card .small {
+  color: darkgreen;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card p {
+  color: #363636;
+  font-size: 16px;
+  margin-top: 3px;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card p b {
+  color: #ff611a;
+}
+#feaBlog .Blog .Blog-Cards a .Blog-Card p i {
+  color: #40200f;
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 Main Section # feaLibrary
 --------------------------------------------------------------*/
