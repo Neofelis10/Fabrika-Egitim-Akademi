@@ -12626,6 +12626,7 @@ Main Section # feaPrivateLesson
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 24px;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box {
   background-color: #363636;
@@ -12633,18 +12634,21 @@ Main Section # feaPrivateLesson
   padding-top: 68px;
   border: 2px solid #e9ff70;
   opacity: 0.8;
-  margin-bottom: 24px;
   height: 252px;
   width: 252px;
   border-radius: 50%;
+  transition: transform 0.5s ease-in-out, border 0.5s ease-in-out, box-shadow 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+#feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box:hover, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box:active, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box:focus {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+  border: 2px solid limegreen;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box a {
   text-decoration: none;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box a h6, #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box a .h6 {
   color: #70d6ff;
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
 }
 #feaPrivateLesson .PrivateLesson .PrivateLesson-boxs .PrivateLesson-box a img {
   height: 100px;
@@ -12653,6 +12657,7 @@ Main Section # feaPrivateLesson
 /*--------------------------------------------------------------
 Main Section # feaBlog
 --------------------------------------------------------------*/
+
 #feaBlog {
   background: url(img/Blog/Blog-bg-img.jpeg);
   background-repeat: no-repeat;
@@ -12713,6 +12718,7 @@ Main Section # feaBlog
   color: #40200f;
   font-weight: bold;
 }
+
 /*--------------------------------------------------------------
 Main Section # feaLibrary
 --------------------------------------------------------------*/
