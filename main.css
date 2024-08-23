@@ -12587,7 +12587,7 @@ Main Section # feaSuccessStories
 @media (max-width: 1599px) and (min-width: 1400px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
-    height: 280px;
+    height: 270px;
   }
   #feaSuccessStories .card-body .card-title {
     margin-bottom: 4px;
@@ -12596,7 +12596,19 @@ Main Section # feaSuccessStories
     font-size: 17px;
   }
 }
-@media (max-width: 1399px) and (min-width: 992px) {
+@media (max-width: 1399px) and (min-width: 1200px) {
+  #feaSuccessStories .card-body {
+    border-radius: 12px;
+    height: 320px;
+  }
+  #feaSuccessStories .card-body .card-title {
+    margin-bottom: 6px;
+  }
+  #feaSuccessStories .card-body .card-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
     height: 360px;
@@ -12611,7 +12623,7 @@ Main Section # feaSuccessStories
 @media (max-width: 991px) and (min-width: 576px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
-    height: 300px;
+    height: 260px;
   }
   #feaSuccessStories .card-body .card-title {
     margin-bottom: 16px;
@@ -12623,7 +12635,7 @@ Main Section # feaSuccessStories
 @media (max-width: 575px) {
   #feaSuccessStories .card-body {
     border-radius: 12px;
-    height: 260px;
+    height: 250px;
   }
   #feaSuccessStories .card-body .card-title {
     margin-bottom: 21px;
