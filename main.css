@@ -12443,32 +12443,106 @@ Main Section # feaSuccessStories
 #feaSuccessStories .SuccessStories-content .owl-carousel .owl-nav {
   display: none;
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box {
+#feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box {
   display: flex;
   border: 3px solid orangered;
   border-radius: 16px;
   opacity: 0.8;
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body {
+#feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box .card-body {
   background-color: ghostwhite;
   padding: 8px;
   text-align: center;
   overflow: hidden;
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-title {
+#feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box .card-body .card-title {
   color: salmon;
   font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text {
+#feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box .card-body .card-text {
   color: #363636;
   flex: 1;
 }
-#feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text small, #feaSuccessStories .SuccessStories-content .SuccessStories-content-box .card-body .card-text .small {
+#feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box .card-body .card-text small, #feaSuccessStories .SuccessStories-content .owl-carousel .SuccessStories-content-box .card-body .card-text .small {
   color: #726da8;
   font-weight: bold;
   font-size: medium;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 {
+  text-align: center;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .btn {
+  background-color: ghostwhite;
+  color: #726da8;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 3px solid orangered;
+  opacity: 0.8;
+  transition: transform 0.7s ease-in-out, border 0.7s ease, box-shadow 0.7s ease-in-out, background-color 0.7s ease-in-out, opacity 0.7s ease-in-out;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .btn:hover, #feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .btn:active {
+  background-color: blanchedalmond;
+  box-shadow: 0 2px 4px rgba(173, 255, 47, 0.3);
+  border-color: green;
+  opacity: 1;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content {
+  background: url(img/Anasayfa/fea-trainingMethodology-bg-1.jpeg);
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-header {
+  background-color: #5b5c74;
+  border: none !important;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-header .modal-title span {
+  color: beige;
+  text-shadow: 1px 2px 2px rgba(250, 125, 9, 0.6);
+  font-weight: bold;
+  padding: 0 0 0 12px;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-header .modal-title i {
+  color: #ff611a;
+  text-shadow: 1px 1px 1px rgba(245, 245, 220, 0.6);
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-header .btn-close {
+  background-color: #ff611a;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body {
+  line-height: 24px;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body-modal .student-comment-modal {
+  background-color: ghostwhite;
+  padding: 8px;
+  text-align: center;
+  overflow: hidden;
+  border: 3px solid orangered;
+  border-radius: 16px;
+  opacity: 0.8;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body-modal .student-comment-modal .student-comment-modal-header i {
+  color: #726da8;
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-body .modal-content-box .card-body-modal .student-comment-modal .student-comment-modal-header span {
+  color: salmon;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+#feaSuccessStories .SuccessStories-content .SuccessStories-content-box-2 .modal.fade.show .modal-dialog .modal-content .modal-footer {
+  background-color: #5b5c74;
+  border: none !important;
 }
 @media (min-width: 1400px) {
   #feaSuccessStories .SuccessStories-content {
