@@ -12097,6 +12097,18 @@ Header # feaHeader
   -webkit-transition: ease-in-out 0.6s;
   -o-transition: ease-in-out 0.6s;
 }
+#feaHeader nav ul li a .online-ders-link {
+  border: 2px solid transparent;
+  -o-border-image: linear-gradient(45deg, #ff9770, #ffd670, #baffc9, #70d6ff, #e9ff70, #ff70a6) 1;
+     border-image: linear-gradient(45deg, #ff9770, #ffd670, #baffc9, #70d6ff, #e9ff70, #ff70a6) 1;
+  transition: ease-in-out 0.6s, box-shadow 0.6s;
+  padding: 0px 3px 0px;
+}
+#feaHeader nav ul li a .online-ders-link:hover {
+  -o-border-image: linear-gradient(45deg, #ffd670, #baffc9, #70d6ff, #e9ff70, #ff70a6, #ff9770) 1;
+     border-image: linear-gradient(45deg, #ffd670, #baffc9, #70d6ff, #e9ff70, #ff70a6, #ff9770) 1;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
 #feaHeader nav ul li a:hover {
   color: #ffffff;
 }
